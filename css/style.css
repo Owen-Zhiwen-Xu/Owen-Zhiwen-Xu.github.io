@@ -428,3 +428,11 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+.nav-link h2.heading-text {
+    margin: 0;           /* Removes default margins */
+    color: inherit;      /* Inherits the color from the parent button */
+    font-size: 1.5rem;   /* Adjusts the font size */
+    text-align: center;  /* Centers the text inside the button */
+    font-weight: bold;   /* Ensures bold text for headings */
+}
